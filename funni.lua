@@ -18,6 +18,7 @@ local Pink = Instance.new("ImageButton")
 LOL.Name = "LOL"
 LOL.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 LOL.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LOL.ResetOnSpawn = false
 
 Rush.Name = "Rush"
 Rush.Parent = LOL
